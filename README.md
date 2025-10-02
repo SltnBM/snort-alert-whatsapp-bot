@@ -1,4 +1,10 @@
 # 🚨 Snort WhatsApp Alert Bot
+<p align="center">
+  <img src="assets/snort.png" width="120" style="border:0; margin: 0 15px;" alt="Snort Logo">
+  <img src="assets/NodeJs.png" width="120" style="border:0; margin: 0 15px;" alt="Nodejs Logo">
+  <img src="assets/WhatsApp.webp" width="60" style="border:0; margin: 0 15px;" alt="WhatsApp Logo">
+</p>
+
 A simple **Node.js bot** to forward **Snort IDS alerts** to **WhatsApp** in real-time.
 This bot continuously monitors the `snort.alert.fast` log file and sends detected alerts directly to your WhatsApp chat.
 
