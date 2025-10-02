@@ -1,8 +1,8 @@
-# Snort WhatsApp Alert Bot
+# 🚨 Snort WhatsApp Alert Bot
 A simple **Node.js bot** to forward **Snort IDS alerts** to **WhatsApp** in real-time.
 This bot continuously monitors the `snort.alert.fast` log file and sends detected alerts directly to your WhatsApp chat.
 
-## Features
+## ✨ Features
 - Real-time monitoring of Snort alerts.
 - Instant forwarding of alerts to WhatsApp.
 - Includes alert details: message, classification, priority, protocol, source, and destination.
@@ -10,7 +10,7 @@ This bot continuously monitors the `snort.alert.fast` log file and sends detecte
 - Displays local server timestamp in each alert.
 - Supports custom Snort rules via `local.rules` file.
 
-## Requirements
+## ⚙️ Requirements
 - Node.js 18+
 - Required libraries:
   - `whatsapp-web.js`
@@ -28,7 +28,7 @@ Or install manually:
 npm install whatsapp-web.js qrcode-terminal tail dotenv
 ```
 
-## How to Use
+## 🚀 How to Use
 1. Make sure you have Node.js installed (v18 or higher recommended). Download it from [nodejs.org](https://nodejs.org/).
 2. Clone this repository
 ```bash
@@ -52,7 +52,7 @@ cd snort-alert-whatsapp-bot
 node index.js
 ```
 
-## Example Alert
+## 📝 Example Alert
 ```plaintext
 🚨 SNORT ALERT 🚨
 
@@ -64,11 +64,11 @@ Priority: 2
 🕒 24 Sep 2025 22:15:42
 ```
 
-## Contributing
+## 🤝 Contributing
 Pull requests are welcome! Feel free to improve regex parsing, add new features, or optimize the alert system.
 
-## Connect With Me
+## 📬 Connect With Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sultan%20Badra-blue?logo=linkedin\&logoColor=white\&style=flat-square)](https://www.linkedin.com/in/sultan-badra)
 
-## License
+## 📄 License
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
