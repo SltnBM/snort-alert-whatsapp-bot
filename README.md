@@ -63,3 +63,6 @@ Priority: 2
 ➡️ 192.168.1.100:54321 → 192.168.1.10:80
 🕒 24 Sep 2025 22:15:42
 ```
+
+## Contributing
+Pull requests are welcome! Feel free to improve regex parsing, add new features, or optimize the alert system.
