@@ -66,3 +66,6 @@ Priority: 2
 
 ## Contributing
 Pull requests are welcome! Feel free to improve regex parsing, add new features, or optimize the alert system.
+
+## Connect With Me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sultan%20Badra-blue?logo=linkedin\&logoColor=white\&style=flat-square)](https://www.linkedin.com/in/sultan-badra)
