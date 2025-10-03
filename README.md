@@ -46,8 +46,12 @@ git clone https://github.com/SltnBM/snort-alert-whatsapp-bot.git
 ```bash
 cd snort-alert-whatsapp-bot
 ```
-4. ⚙️ Configure environment variables in `.env`:
-5. 📝 Add your custom Snort rules:
+4. 📦 Install dependencies
+```bash
+npm install
+```
+5. ⚙️ Configure environment variables in `.env`:
+6. 📝 Add your custom Snort rules:
 - A sample `local.rules` file is already provided in this repository.
 - Open `/etc/snort/rules/local.rules` with a text editor:
   ```bash
@@ -55,7 +59,7 @@ cd snort-alert-whatsapp-bot
   ```
 - Add your detection rules following Snort syntax.
 - Save and exit the editor.
-6. ▶️ Run the bot
+7. ▶️ Run the bot
 ```bash
 node index.js
 ```
