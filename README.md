@@ -50,7 +50,11 @@ cd snort-alert-whatsapp-bot
 ```bash
 npm install
 ```
-5. ⚙️ Configure environment variables in `.env`:
+5. ⚙️ Copy the environment file and configure it
+```bash
+cp .env.example .env
+```
+  - Open .env with a text editor and update the values as needed.
 6. 📝 Add your custom Snort rules:
 - A sample `local.rules` file is already provided in this repository.
 - Open `/etc/snort/rules/local.rules` with a text editor:
