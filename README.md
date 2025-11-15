@@ -24,7 +24,7 @@ This bot continuously monitors the `snort.alert.fast` log file and sends detecte
 
 ## ⚙️ Requirements
 - ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)
-- 📦 Required libraries:
+- Required libraries:
   - `whatsapp-web.js`
   - `qrcode-terminal`
   - `tail`
