@@ -13,12 +13,12 @@ This bot continuously monitors the `snort.alert.fast` log file and sends detecte
 ---
 
 ## ✨ Features
-- 📡 Real-time monitoring of Snort alerts.
-- 🚀 Instant forwarding of alerts to WhatsApp.
-- 📝 Includes alert details: message, classification, priority, protocol, source, and destination.
-- ⏱️ Throttling to prevent spam (configurable interval).
-- 🖥️ Displays local server timestamp in each alert.
-- 📜 Supports custom Snort rules via `local.rules` file.
+- Real-time monitoring of Snort alerts.
+- Instant forwarding of alerts to WhatsApp.
+- Includes alert details: message, classification, priority, protocol, source, and destination.
+- Throttling to prevent spam (configurable interval).
+- Displays local server timestamp in each alert.
+- Supports custom Snort rules via `local.rules` file.
 
 ---
 
@@ -43,25 +43,25 @@ npm install whatsapp-web.js qrcode-terminal tail dotenv
 ---
 
 ## 🚀 How to Use
-1. ✅ Make sure you have Node.js installed (v18 or higher recommended). Download it from [nodejs.org](https://nodejs.org/).
-2. 📥 Clone this repository
+1. Make sure you have Node.js installed (v18 or higher recommended). Download it from [nodejs.org](https://nodejs.org/).
+2. Clone this repository
 ```bash
 git clone https://github.com/SltnBM/snort-alert-whatsapp-bot.git
 ```
-3. 📂 Navigate to the project directory
+3. Navigate to the project directory
 ```bash
 cd snort-alert-whatsapp-bot
 ```
-4. 📦 Install dependencies
+4. Install dependencies
 ```bash
 npm install
 ```
-5. ⚙️ Copy the environment file and configure it
+5. Copy the environment file and configure it
 ```bash
 cp .env.example .env
 ```
   - Open .env with a text editor and update the values as needed.
-6. 📝 Add your custom Snort rules:
+6. Add your custom Snort rules:
 - A sample `local.rules` file is already provided in this repository.
 - Open `/etc/snort/rules/local.rules` with a text editor:
   ```bash
@@ -69,7 +69,7 @@ cp .env.example .env
   ```
 - Add your detection rules following Snort syntax.
 - Save and exit the editor.
-7. ▶️ Run the bot
+7. Run the bot
 ```bash
 node index.js
 ```
