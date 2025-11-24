@@ -7,8 +7,7 @@
   <img src="assets/WhatsApp.webp" width="50" alt="WhatsApp Logo">
 </p>
 
-A simple **Node.js bot** to forward **Snort IDS alerts** to **WhatsApp** in real-time.
-This bot continuously monitors the `snort.alert.fast` log file and sends detected alerts directly to your WhatsApp chat.
+A lightweight and efficient `Node.js` bot that integrates directly with `Snort IDS` to forward real-time intrusion alerts to `WhatsApp`. Ideal for security monitoring, home labs, and SOC environments.
 
 ---
 
