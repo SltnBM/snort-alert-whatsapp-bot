@@ -21,6 +21,13 @@ A lightweight and efficient `Node.js` bot that integrates directly with `Snort I
 
 ---
 
+## 🧩 Architecture Overview
+```bash
+Snort IDS → snort.alert.fast → Node.js Bot → WhatsApp API (via whatsapp-web.js)
+```
+
+---
+
 ## ⚙️ Requirements
 - ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)
 - Required libraries:
