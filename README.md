@@ -1,4 +1,4 @@
-# 🚨 Snort WhatsApp Alert Bot
+# Snort WhatsApp Alert Bot
 <p align="center">
   <img src="assets/snort.png" width="120" alt="Snort Logo">
   &nbsp;&nbsp;&nbsp;
@@ -11,7 +11,7 @@ A lightweight and efficient `Node.js` bot that integrates directly with `Snort I
 
 ---
 
-## ✨ Features
+## Features
 - Real-time monitoring of Snort alerts.
 - Instant forwarding of alerts to WhatsApp.
 - Includes alert details: message, classification, priority, protocol, source, and destination.
@@ -21,14 +21,14 @@ A lightweight and efficient `Node.js` bot that integrates directly with `Snort I
 
 ---
 
-## 🧩 Architecture Overview
+## Architecture Overview
 ```bash
 Snort IDS → snort.alert.fast → Node.js Bot → WhatsApp API (via whatsapp-web.js)
 ```
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 - ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)
 - Required libraries:
   - `whatsapp-web.js`
@@ -48,7 +48,7 @@ npm install whatsapp-web.js qrcode-terminal tail dotenv
 
 ---
 
-## 🚀 How to Use
+## How to Use
 1. Make sure you have Node.js installed (v18 or higher recommended). Download it from [nodejs.org](https://nodejs.org/).
 2. Clone this repository
 ```bash
@@ -82,7 +82,7 @@ node index.js
 
 ---
 
-## 📝 Example Alert
+## Example Alert
 ```plaintext
 🚨 SNORT ALERT 🚨
 
@@ -96,15 +96,15 @@ Priority: 2
 
 ---
 
-## 🤝 Contributing
+## Contributing
 Pull requests are welcome! Feel free to improve regex parsing, add new features, or optimize the alert system.
 
 ---
 
-## 📬 Connect With Me
+## Connect With Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sultan%20Badra-blue?logo=linkedin\&logoColor=white\&style=flat-square)](https://www.linkedin.com/in/sultan-badra)
 
 ---
 
-## 📄 License
+## License
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
